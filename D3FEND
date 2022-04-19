@@ -1,0 +1,21 @@
+Scenario
+Scenario
+D3FEND -a catalog of defensive cybersecurity techniques and their relationships to offensive/ad-versary techniques has been released. Let’s see what it holds.
+
+Note: If there are multiple answers, answer them alphabetically.
+Challenge Submission
+What is the corresponding name for the ID ‘D3-SDM’? (2 points)
+System Daemon Monitoring
+Correct! 
+What are the five general tactics used to classify each defensive method? (In the order they appear) (2 points)
+harden, detect, isolate, deceive, evict
+Correct! 
+What open-source project retrieves Azure Sentinel rules that are mapped to MITRE ATT&CK Framework and generates the related MITRE D3FEND defenses? (2 points)
+Sentinel2D3FEND
+Correct! 
+What does ‘File Access Pattern Analysis’ mean? (2 points)
+ Analyzing the files accessed by a process to identify unauthorized activity
+Correct! 
+What does ‘Local Resource Access’ artifact mean? (2 points)
+Ephemeral digital artifact comprising a request of a local resource and any response from that resource
+Correct! 
