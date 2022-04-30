@@ -1,0 +1,25 @@
+Scenario
+Scenario
+A server with sensitive data was accessed by an attacker and the files were posted on an underground forum. This data was only available to a privileged user, in this case the ‘root’ account. Responders say ‘www-data’ would be the logged in user if the server was remotely accessed, and this user doesn’t have access to the data. The developer stated that the server is hosting a PHP-based website and that proper filtering is in place to prevent php file uploads to gain malicious code execution. The bash history is provided to you but the recorded commands don’t appear to be related to the attack. Can you find what actually happened?
+Retired Challenge
+Retired
+Retired content can still be completed, will count towards achievements but will not provide points towards the LIVE leaderboard.
+You can find featured write-ups on the left-hand side panel below recent solves.
+
+Want your write-up featured as well? Get in touch with us through our Discord Server or by leaving a feedback message.
+Challenge Submission
+What user (other than ‘root’) is present on the server? (2 points)
+daniel
+Correct! 
+What script did the attacker try to download to the server? (2 points)
+ linux-exploit-suggester.sh
+Correct! 
+What packet analyzer tool did the attacker try to use? (2 points)
+tcpdump
+Correct! 
+What file extension did the attacker use to bypass the file upload filter implemented by the developer? (2 points)
+.phtml
+Correct! 
+Based on the commands run by the attacker before removing the php shell, what misconfiguration was exploited in the ‘python’ binary to gain root-level access? 1- Reverse Shell ; 2- File Upload ; 3- File Write ; 4- SUID ; 5- Library load (2 points)
+4
+Correct! 
