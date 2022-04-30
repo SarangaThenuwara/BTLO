@@ -1,0 +1,29 @@
+Scenario
+Scenario
+Recently the networks of a large company named GothamLegend were compromised after an employee opened a phishing email containing malware. The damage caused was critical and resulted in business-wide disruption. GothamLegend had to reach out to a third-party incident response team to assist with the investigation. You are a member of the IR team - all you have is an encoded Powershell script. Can you decode it and identify what malware is responsible for this attack?
+
+Reading Material:
+Link 1
+Retired Challenge
+Retired
+Retired content can still be completed, will count towards achievements but will not provide points towards the LIVE leaderboard.
+You can find featured write-ups on the left-hand side panel below recent solves.
+
+Want your write-up featured as well? Get in touch with us through our Discord Server or by leaving a feedback message.
+Challenge Submission
+What security protocol is being used for the communication with a malicious domain? (3 points)
+TLS 1.2
+What directory does the obfuscated PowerShell create? (Starting from \HOME\) (4 points)
+\HOME\Db_bh30\Yf5be5g\
+Correct! 
+What file is being downloaded (full name)? (4 points)
+A69S.dll
+Correct! 
+What is used to execute the downloaded file? (3 points)
+rundll32
+Correct! 
+What is the domain name of the URI ending in ‘/6F2gd/’ (3 points)
+wm.mcdevelop.net
+Based on the analysis of the obfuscated code, what is the name of the malware? (3 points)
+emotet
+Correct! 
