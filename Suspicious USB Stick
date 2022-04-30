@@ -1,0 +1,33 @@
+Scenario
+Scenario
+One of our clients informed us they recently suffered an employee data breach. As a startup company, they had a constrained budget allocated for security and employee training. I visited them and spoke with the relevant stakeholders. I also collected some suspicious emails and a USB drive an employee found on their premises. While I am analyzing the suspicious emails, can you check the contents on the USB drive?
+
+Reading Material:
+https://zeltser.com/analyzing-malicious-documents/
+https://en.wikipedia.org/wiki/List_of_file_signatures
+https://eternal-todo.com/tools/peepdf-pdf-analysis-tool.
+Retired Challenge
+Retired
+Retired content can still be completed, will count towards achievements but will not provide points towards the LIVE leaderboard.
+You can find featured write-ups on the left-hand side panel below recent solves.
+
+Want your write-up featured as well? Get in touch with us through our Discord Server or by leaving a feedback message.
+Challenge Submission
+What file is the autorun.inf running? (3 points)
+Readme.pdf
+Correct! 
+Does the pdf file pass virustotal scan? (No malicious results returned) (2 points)
+False
+Correct! 
+Does the file have the correct magic number? (2 points)
+True
+Correct! 
+What OS type can the file exploit? (Linux, MacOS, Windows, etc) (5 points)
+Windows
+Correct! 
+A Windows executable is mentioned in the pdf file, what is it? (3 points)
+ cmd.exe
+Correct! 
+How many suspicious /OpenAction elements does the file have? (5 points)
+1
+Correct! 
